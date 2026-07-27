@@ -1,3 +1,6 @@
+server:
+  port: ${PORT:8080}
+
 spring:
   application:
     name: CareSync-ERP
@@ -19,8 +22,8 @@ spring:
   mail:
     host: smtp.gmail.com
     port: 587
-    username: anshumananshuman63@gmail.com
-    password: rnqamgkzlhfsqfpk
+    username: ${MAIL_USERNAME}
+    password: ${MAIL_PASSWORD}
     properties:
       mail:
         smtp:
