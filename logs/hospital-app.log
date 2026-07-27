@@ -1,0 +1,127 @@
+2026-07-26T23:12:38.851+05:30  INFO 11836 --- [CareSync-ERP] [main] c.caresync.erp.CaresyncErpApplication    : Starting CaresyncErpApplication using Java 17.0.12 with PID 11836 (C:\Users\91637\Desktop\CareSync-ERP\caresync-erp\target\classes started by 91637 in C:\Users\91637\Desktop\CareSync-ERP\caresync-erp)
+2026-07-26T23:12:38.854+05:30 DEBUG 11836 --- [CareSync-ERP] [main] c.caresync.erp.CaresyncErpApplication    : Running with Spring Boot v4.1.0, Spring v7.0.8
+2026-07-26T23:12:38.855+05:30  INFO 11836 --- [CareSync-ERP] [main] c.caresync.erp.CaresyncErpApplication    : No active profile set, falling back to 1 default profile: "default"
+2026-07-26T23:12:39.710+05:30  INFO 11836 --- [CareSync-ERP] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-07-26T23:12:39.806+05:30  INFO 11836 --- [CareSync-ERP] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 73 ms. Found 4 JPA repository interfaces.
+2026-07-26T23:12:40.526+05:30  INFO 11836 --- [CareSync-ERP] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-07-26T23:12:40.548+05:30  INFO 11836 --- [CareSync-ERP] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-26T23:12:40.549+05:30  INFO 11836 --- [CareSync-ERP] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-07-26T23:12:40.616+05:30  INFO 11836 --- [CareSync-ERP] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1697 ms
+2026-07-26T23:12:40.681+05:30 DEBUG 11836 --- [CareSync-ERP] [main] c.c.erp.security.jwt.JwtAuthFilter       : Filter 'jwtAuthFilter' configured for use
+2026-07-26T23:12:40.826+05:30  INFO 11836 --- [CareSync-ERP] [main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-07-26T23:12:40.908+05:30  INFO 11836 --- [CareSync-ERP] [main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.4.1.Final
+2026-07-26T23:12:41.537+05:30  INFO 11836 --- [CareSync-ERP] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-07-26T23:12:41.609+05:30  INFO 11836 --- [CareSync-ERP] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-07-26T23:12:42.127+05:30  INFO 11836 --- [CareSync-ERP] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5972e3a
+2026-07-26T23:12:42.129+05:30  INFO 11836 --- [CareSync-ERP] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-07-26T23:12:42.243+05:30  WARN 11836 --- [CareSync-ERP] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-07-26T23:12:42.276+05:30  INFO 11836 --- [CareSync-ERP] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/caresync_db]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.42
+	Default catalog/schema: caresync_db/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-07-26T23:12:43.957+05:30  INFO 11836 --- [CareSync-ERP] [main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-07-26T23:12:44.335+05:30  INFO 11836 --- [CareSync-ERP] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-07-26T23:12:44.453+05:30  INFO 11836 --- [CareSync-ERP] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-07-26T23:12:46.665+05:30  WARN 11836 --- [CareSync-ERP] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-07-26T23:12:46.833+05:30  INFO 11836 --- [CareSync-ERP] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsServiceImpl
+2026-07-26T23:12:47.581+05:30  INFO 11836 --- [CareSync-ERP] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-07-26T23:12:47.588+05:30  INFO 11836 --- [CareSync-ERP] [main] c.caresync.erp.CaresyncErpApplication    : Started CaresyncErpApplication in 9.434 seconds (process running for 9.921)
+2026-07-26T23:12:48.503+05:30  INFO 5616 --- [CareSync-ERP] [main] c.caresync.erp.CaresyncErpApplication    : Starting CaresyncErpApplication using Java 17.0.12 with PID 5616 (C:\Users\91637\Desktop\CareSync-ERP\caresync-erp\target\classes started by 91637 in C:\Users\91637\Desktop\CareSync-ERP\caresync-erp)
+2026-07-26T23:12:48.506+05:30 DEBUG 5616 --- [CareSync-ERP] [main] c.caresync.erp.CaresyncErpApplication    : Running with Spring Boot v4.1.0, Spring v7.0.8
+2026-07-26T23:12:48.507+05:30  INFO 5616 --- [CareSync-ERP] [main] c.caresync.erp.CaresyncErpApplication    : No active profile set, falling back to 1 default profile: "default"
+2026-07-26T23:12:49.322+05:30  INFO 5616 --- [CareSync-ERP] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-07-26T23:12:49.422+05:30  INFO 5616 --- [CareSync-ERP] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 85 ms. Found 4 JPA repository interfaces.
+2026-07-26T23:12:50.011+05:30  INFO 5616 --- [CareSync-ERP] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-07-26T23:12:50.024+05:30  INFO 5616 --- [CareSync-ERP] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-26T23:12:50.026+05:30  INFO 5616 --- [CareSync-ERP] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-07-26T23:12:50.095+05:30  INFO 5616 --- [CareSync-ERP] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1535 ms
+2026-07-26T23:12:50.149+05:30 DEBUG 5616 --- [CareSync-ERP] [main] c.c.erp.security.jwt.JwtAuthFilter       : Filter 'jwtAuthFilter' configured for use
+2026-07-26T23:12:50.293+05:30  INFO 5616 --- [CareSync-ERP] [main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-07-26T23:12:50.411+05:30  INFO 5616 --- [CareSync-ERP] [main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.4.1.Final
+2026-07-26T23:12:50.902+05:30  INFO 5616 --- [CareSync-ERP] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-07-26T23:12:50.950+05:30  INFO 5616 --- [CareSync-ERP] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-07-26T23:12:51.318+05:30  INFO 5616 --- [CareSync-ERP] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4e671ef
+2026-07-26T23:12:51.321+05:30  INFO 5616 --- [CareSync-ERP] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-07-26T23:12:51.388+05:30  WARN 5616 --- [CareSync-ERP] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-07-26T23:12:51.416+05:30  INFO 5616 --- [CareSync-ERP] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/caresync_db]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.42
+	Default catalog/schema: caresync_db/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-07-26T23:12:52.829+05:30  INFO 5616 --- [CareSync-ERP] [main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-07-26T23:12:53.035+05:30  INFO 5616 --- [CareSync-ERP] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-07-26T23:12:53.104+05:30  INFO 5616 --- [CareSync-ERP] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-07-26T23:12:54.226+05:30  WARN 5616 --- [CareSync-ERP] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-07-26T23:12:54.318+05:30  INFO 5616 --- [CareSync-ERP] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsServiceImpl
+2026-07-26T23:12:54.790+05:30  WARN 5616 --- [CareSync-ERP] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2026-07-26T23:12:54.793+05:30  INFO 5616 --- [CareSync-ERP] [main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-07-26T23:12:54.796+05:30  INFO 5616 --- [CareSync-ERP] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-07-26T23:12:54.809+05:30  INFO 5616 --- [CareSync-ERP] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-07-26T23:12:54.829+05:30  INFO 5616 --- [CareSync-ERP] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-07-26T23:12:54.847+05:30 ERROR 5616 --- [CareSync-ERP] [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2026-07-26T23:14:41.162+05:30  INFO 15664 --- [CareSync-ERP] [main] c.caresync.erp.CaresyncErpApplication    : Starting CaresyncErpApplication using Java 17.0.12 with PID 15664 (C:\Users\91637\Desktop\CareSync-ERP\caresync-erp\target\classes started by 91637 in C:\Users\91637\Desktop\CareSync-ERP\caresync-erp)
+2026-07-26T23:14:41.165+05:30 DEBUG 15664 --- [CareSync-ERP] [main] c.caresync.erp.CaresyncErpApplication    : Running with Spring Boot v4.1.0, Spring v7.0.8
+2026-07-26T23:14:41.166+05:30  INFO 15664 --- [CareSync-ERP] [main] c.caresync.erp.CaresyncErpApplication    : No active profile set, falling back to 1 default profile: "default"
+2026-07-26T23:14:41.897+05:30  INFO 15664 --- [CareSync-ERP] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-07-26T23:14:41.992+05:30  INFO 15664 --- [CareSync-ERP] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 86 ms. Found 4 JPA repository interfaces.
+2026-07-26T23:14:42.590+05:30  INFO 15664 --- [CareSync-ERP] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-07-26T23:14:42.606+05:30  INFO 15664 --- [CareSync-ERP] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-26T23:14:42.606+05:30  INFO 15664 --- [CareSync-ERP] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-07-26T23:14:42.665+05:30  INFO 15664 --- [CareSync-ERP] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1444 ms
+2026-07-26T23:14:42.720+05:30 DEBUG 15664 --- [CareSync-ERP] [main] c.c.erp.security.jwt.JwtAuthFilter       : Filter 'jwtAuthFilter' configured for use
+2026-07-26T23:14:42.860+05:30  INFO 15664 --- [CareSync-ERP] [main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-07-26T23:14:42.938+05:30  INFO 15664 --- [CareSync-ERP] [main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.4.1.Final
+2026-07-26T23:14:43.434+05:30  INFO 15664 --- [CareSync-ERP] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-07-26T23:14:43.479+05:30  INFO 15664 --- [CareSync-ERP] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-07-26T23:14:43.799+05:30  INFO 15664 --- [CareSync-ERP] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4e671ef
+2026-07-26T23:14:43.801+05:30  INFO 15664 --- [CareSync-ERP] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-07-26T23:14:43.869+05:30  WARN 15664 --- [CareSync-ERP] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-07-26T23:14:43.889+05:30  INFO 15664 --- [CareSync-ERP] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/caresync_db]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.42
+	Default catalog/schema: caresync_db/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-07-26T23:14:45.118+05:30  INFO 15664 --- [CareSync-ERP] [main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-07-26T23:14:45.290+05:30  INFO 15664 --- [CareSync-ERP] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-07-26T23:14:45.352+05:30  INFO 15664 --- [CareSync-ERP] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-07-26T23:14:46.398+05:30  WARN 15664 --- [CareSync-ERP] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-07-26T23:14:46.490+05:30  INFO 15664 --- [CareSync-ERP] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsServiceImpl
+2026-07-26T23:14:47.000+05:30  INFO 15664 --- [CareSync-ERP] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-07-26T23:14:47.006+05:30  INFO 15664 --- [CareSync-ERP] [main] c.caresync.erp.CaresyncErpApplication    : Started CaresyncErpApplication in 6.383 seconds (process running for 6.87)
