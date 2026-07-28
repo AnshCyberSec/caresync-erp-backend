@@ -13,7 +13,7 @@ spring:
   jpa:
     hibernate:
       ddl-auto: update
-    show-sql: true
+    show-sql: false
     properties:
       hibernate:
         format_sql: true
@@ -35,9 +35,9 @@ spring:
 logging:
   level:
     root: INFO
-    com.caresync.erp: DEBUG
+    com.caresync.erp: INFO
     org.springframework.web: INFO
-    org.hibernate.SQL: WARN
+    org.hibernate.SQL: OFF
 
   file:
     name: logs/hospital-app.log
